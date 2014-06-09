@@ -1,6 +1,5 @@
-== README
+= README
 
-Creating my first app with th ehelp of Rails Tutorial
+-Creating my first app with th ehelp of Rails Tutorial
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+Please feel free to use a different markup language if you do not plan to run <tt>rake doc:app</tt>.
