@@ -12,7 +12,7 @@ class Contact < ActiveRecord::Base
   validates_length_of :content, :maximum => 500
 
   def update_spreadsheet
-    connection = GoogleDrive.login(Rails.application.secrets.email_provider_username, Rails.application.secrets.email_provider_password
+    connection = GoogleDrive.login(Rails.application.secrets.paullin22, Rails.application.secrets.sepeijeziufbqzmm
 )
     ss = connection.spreadsheet_by_title('Learn-Rails-Example')
     if ss.nil?
